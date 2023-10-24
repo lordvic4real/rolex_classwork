@@ -4,18 +4,52 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    height: 50px;
-    background: #072c59;
-    /* border-right: 40px solid green; */
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 92px;
 
+.banner{
+    display: flex; 
+    height: 500px;
+    margin: 0;      
 }
-nav{
+.banner-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 100px;
+}
+.banner-text h1{
+    text-transform: capitalize;
+    color: #072c59;
+    line-height: 64px;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+.banner-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: #212121;
+    font-weight: 400;
+    font-size: 24px;
+    opacity: 80%;
+}
+.btn{
+    background: #da3673;
+    width: 180px;
+    height: 48px;
+    color: white;
+    position: absolute;
+    /* width: Fixed (180px);;
+    height: Hug (48px); */
+    top: 492px;
+    left: 206px;
+    padding: 13px, 56px, 13px, 56px;
+    border-radius: 8px;
+    gap: 10px; 
+    box-shadow: 0px 10px 15px lightgrey;
+    border: none;
+    cursor: pointer;
+}
+
+/* nav{
     display: flex;
     flex: 2;
     gap: 20px;
@@ -48,4 +82,5 @@ button{
     font-weight: 600;
     line-height: 29.05px;
 }
+ */
 
