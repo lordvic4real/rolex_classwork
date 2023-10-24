@@ -4,12 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    display: flex;
-    height: 50px;
-    background: #072c59;
-    justify-content: space-between;
-}
+
 .banner{
     display: flex; 
     height: 500px;
@@ -53,4 +48,39 @@ header{
     border: none;
     cursor: pointer;
 }
+
+/* nav{
+    display: flex;
+    flex: 2;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 80%;
+    font-family: 'inter';
+}
+.active{
+    color: white;
+    opacity: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+button{
+    background: white;
+    color: red;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+}
+ */
 
